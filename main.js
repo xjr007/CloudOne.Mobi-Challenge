@@ -13,8 +13,8 @@ const getDate = date => {
 			let currDate = prop.dt_txt.substring(0, 10);
 			// let currDate = new Date(prop.dt);
 			console.log(currDate); // 2020-01-27
-			let currTime = prop.dt_txt.substing(11, 19);
-			console.log(currTime);
+			// let currTime = prop.dt_txt.substing(11, 19);
+			// console.log(currTime);
 			dateElement = document.createElement('span');
 			dateElement.id = 'curr-date';
 			dateElement.textContent = currDate;
