@@ -13,7 +13,7 @@ Wind conversion
     Direction
     ----------
         CompassPoints = ["N","NNE","NE","ENE","E","ESE","SE","SSE","S","SSW","SW","WSW","W","WNW","NW","NNW","N"]
-        CompassDir = CompassPoints[Round((WindDir MOD 360)/ 22.5,0)+1)]
+        CompassDir = CompassPoints[Round((windDeg MOD 360)/ 22.5,0)+1)]
 
 Date conversion
 ----------------
