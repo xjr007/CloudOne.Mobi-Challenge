@@ -1,0 +1,27 @@
+Temp conversion
+----------------
+    Kelvin to Celcius
+    K   -   273.15  =   C
+
+
+Wind conversion
+----------------
+    Speed
+    ------
+        Knots to KM
+        KM  =   K   *   1.85
+    Direction
+    ----------
+        CompassPoints = ["N","NNE","NE","ENE","E","ESE","SE","SSE","S","SSW","SW","WSW","W","WNW","NW","NNW","N"]
+        CompassDir = CompassPoints[Round((WindDir MOD 360)/ 22.5,0)+1)]
+
+Date conversion
+----------------
+    mm to Date
+
+    -- without mm
+        time    =   new Date().getTime()
+    
+    -- with mm
+        date    =   new Date(timeInMilli)
+        date.toString()
